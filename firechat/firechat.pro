@@ -25,13 +25,41 @@ DEFINES += QT_DEPRECATED_WARNINGS
 CONFIG += c++11
 
 SOURCES += \
-        main.cpp \
-        widget.cpp
+    main.cpp \
+    widgets/title_widget.cpp \
+    widgets/push_button.cpp \
+    widgets/tool_button.cpp \
+    boxes/main_widget.cpp \
+    util/util.cpp \
+    boxes/content_widget.cpp \
+    widgets/main_menu.cpp \
+    widgets/system_tray.cpp \
+    boxes/about_us.cpp \
+    boxes/skin_widget.cpp \
+    widgets/change_skin_widget.cpp \
+    boxes/setting_dialog.cpp
 
 HEADERS += \
-        widget.h
+    widgets/title_widget.h \
+    widgets/push_button.h \
+    widgets/tool_button.h \
+    boxes/main_widget.h \
+    util/util.h \
+    boxes/content_widget.h \
+    widgets/main_menu.h \
+    widgets/system_tray.h \
+    boxes/about_us.h \
+    boxes/skin_widget.h \
+    widgets/change_skin_widget.h \
+    boxes/setting_dialog.h \
+    util/common.h
 
+TRANSLATIONS += English.ts\
+                Chinese.ts
 # Default rules for deployment.
 qnx: target.path = /tmp/$${TARGET}/bin
 else: unix:!android: target.path = /opt/$${TARGET}/bin
 !isEmpty(target.path): INSTALLS += target
+
+RESOURCES += \
+    qrc.qrc

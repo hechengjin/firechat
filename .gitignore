@@ -1,0 +1,14 @@
+*.o
+*.user
+*.Debug
+*.Release
+*.exe
+*.tlog
+*.obj
+*.opendb
+*.pdb
+*.log
+*.ipch
+*.dll
+*.db
+*.ilk

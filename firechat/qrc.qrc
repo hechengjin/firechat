@@ -1,0 +1,34 @@
+<RCC>
+    <qresource prefix="/img">
+        <file alias="firechat.ico">img/firechat.ico</file>
+        <file alias="firechat">img/firechat.png</file>
+        <file alias="fire">img/fire.png</file>
+    </qresource>
+    <qresource prefix="/skin">
+        <file alias="default">img/skin/default.jpg</file>
+        <file alias="default_big">img/skin/default_big.jpg</file>
+        <file alias="green">img/skin/green.jpg</file>
+        <file alias="green_big">img/skin/green_big.jpg</file>
+        <file alias="red">img/skin/red.jpg</file>
+        <file alias="red_big">img/skin/red_big.jpg</file>
+    </qresource>
+    <qresource prefix="/sysButton">
+        <file alias="skin_button">img/sysButton/skin_button.png</file>
+        <file alias="main_menu">img/sysButton/main_menu.png</file>
+        <file alias="min_button">img/sysButton/min_button.png</file>
+        <file alias="max_button">img/sysButton/max_button.png</file>
+        <file alias="close_button">img/sysButton/close.png</file>
+        <file alias="close">img/sysButton/close.png</file>
+    </qresource>
+    <qresource prefix="/mainMenu">
+        <file alias="about">img/mainMenu/about.png</file>
+        <file alias="help">img/mainMenu/help.png</file>
+        <file alias="home">img/mainMenu/home.png</file>
+        <file alias="setting">img/mainMenu/setting.png</file>
+        <file alias="update">img/mainMenu/update.png</file>
+    </qresource>
+    <qresource prefix="/qm">
+           <file alias="language_en">English.qm</file>
+           <file alias="language_zh">Chinese.qm</file>
+       </qresource>
+</RCC>
