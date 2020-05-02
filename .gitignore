@@ -13,3 +13,10 @@
 *.db
 *.ilk
 *.pro.user
+
+#folder
+build-*/
+build-*/
+GeneratedFiles/
+Debug/
+Release/
